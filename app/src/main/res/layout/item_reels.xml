@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/img_8"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cristiano"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_marginTop="18dp"/>
+
+</LinearLayout>
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="400dp"
+            android:id="@+id/reels_img"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/baseline_heart_broken_24"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6,2 mln"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="13dp"/>
+        <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+        android:src="@drawable/baseline_chat_bubble_outline_24"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="45,6 k"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="13dp"/>
+        <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+        android:src="@drawable/baseline_airplanemode_active_24"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123 k"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="13dp"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="60dp"
+            android:src="@drawable/baseline_save_alt_24"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cristiano new photo"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:paddingStart="10dp"/>
+
+</LinearLayout>

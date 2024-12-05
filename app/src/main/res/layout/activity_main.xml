@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/lin"
+        android:id="@+id/contener"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/lin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contener"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/img_home"
+            android:src="@drawable/img"
+            android:layout_marginStart="34dp"/>
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/img_lupa"
+            android:src="@drawable/img_1"
+            android:layout_marginTop="9.2dp"
+            android:layout_marginStart="34dp"/>
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/img_plus"
+            android:src="@drawable/img_2"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="34dp"/>
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/img_reels"
+            android:src="@drawable/img_3"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="34dp"/>
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/img_profile"
+            android:src="@drawable/img_4"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="34dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
